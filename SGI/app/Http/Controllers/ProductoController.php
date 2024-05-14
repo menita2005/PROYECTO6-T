@@ -2,18 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Producto;
 use Illuminate\Http\Request;
 
 class ProductoController extends Controller
 {
     public function index(){
-        return view('Productos.index');
+
+        $productos = Producto::paginate();
+           
+
+        return view('Productos.index' , compact('productos'));
     }   
+
     public function create(){
         return view('Productos.create');
     }
-    public function Show($pan){
-        return view('Productos.show', ['pan' => $pan]);
-    }
 
+    public function Show($IDproducto){
+        return view('Productos.show', ['IDproducto' => $IDproducto]);
+    }
 }
+
