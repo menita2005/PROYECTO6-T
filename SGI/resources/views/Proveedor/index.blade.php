@@ -1,12 +1,12 @@
 @extends('layouts.plantilla')
-@section('title','Productos')
+@section('title','Proveedor')
 @section('content')
 <h1>"Bienvenido A Proveedor"</h1> 
 <a href="{{route('Proveedor.create')}}">CREAR PROVEEDOR</a>
 <ul>
-@foreach($Proveedor as $Proveedor)
+@foreach($Proveedores as $Proveedores)
    <li>
-      <a href="{{route('Proveedor.show', $Proveedor->id)}}"> {{$Proveedor->NombreP}}
+      <a href="{{route('Proveedor.show', $Proveedores->id)}}"> {{$Proveedores->Nombre}}
    </li>
 @endforeach
 </ul>

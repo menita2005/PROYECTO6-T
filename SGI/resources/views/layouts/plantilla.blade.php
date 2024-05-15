@@ -6,7 +6,7 @@
     <title>@yield('title')</title>
 </link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> 
 @yield('link')
-<a href="{{route('Productos.index')}}"><h1>Productos</h1></a> <a href="{{route('Proveedor.index')}}"><h1>Proveedor</h1></a>
+<a href="{{route('Productos.index')}}"><h1>Productos</h1></a> <a href="{{route('Proveedor.index')}}"><h1>Proveedor</h1></a><a href="{{route('Categoria.index')}}"><h1>Categoria</h1></a>
 </head>
 
 <body>

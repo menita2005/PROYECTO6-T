@@ -8,10 +8,10 @@ class ProveedorController extends Controller
 {
     public function index(){
 
-        $Proveedor = Proveedor::paginate();
+        $Proveedores = Proveedor::paginate();
            
 
-        return view('Proveedor.index' , compact('Proveedor'));
+        return view('Proveedor.index' , compact('Proveedores'));
     }   
 
     public function create(){
@@ -20,10 +20,9 @@ class ProveedorController extends Controller
 
     public function Show($id){
 
-        $Proveedor = Proveedor::find($id);
+        $Proveedores = Proveedor::find($id);
 
         
-
-        return view('Proveedor.show', compact('Proveedor'));
+        return view('Proveedor.show', compact('Proveedores'));
     }
 }

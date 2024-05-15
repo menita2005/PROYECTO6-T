@@ -1,11 +1,11 @@
 @extends('layouts.plantilla')
-@section('title','Proveedor ' . $proveedor->Nombre)
+@section('title','Proveedor ' . $Proveedores->Nombre)
 @section('content')
 
-<h1>"Informacion del proveedor {{$proveedor->Nombre}}"</h1>
+<h1>"Informacion del proveedor {{$Proveedores->Nombre}}"</h1>
 
     
 
-<p><strong>Telefono: {{$proveedor->telefono}}</strong></p>
-<p><strong>Correo: {{$proveedor->correo}}</strong></p>
+<p><strong>Telefono: {{$Proveedores->telefono}}</strong></p>
+<p><strong>Correo: {{$Proveedores->Correo}}</strong></p>
 @endsection
