@@ -19,8 +19,13 @@ class ProductoController extends Controller
         return view('Productos.create');
     }
 
-    public function Show($IDproducto){
-        return view('Productos.show', ['IDproducto' => $IDproducto]);
+    public function Show($id){
+
+        $producto = Producto::find($id);
+
+        
+
+        return view('Productos.show', compact('producto'));
     }
 }
 

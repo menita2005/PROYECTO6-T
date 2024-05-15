@@ -6,11 +6,11 @@
 <ul>
 @foreach($productos as $producto)
    <li>
-      <a href="{{route('Productos.show', $producto->IDproducto)}}"> {{$producto->NombreP}}
+      <a href="{{route('Productos.show', $producto->id)}}"> {{$producto->NombreP}}
    </li>
 @endforeach
 </ul>
 
-{{$productos->Links()}}
+{{$productos->links()}}
 
 @endsection
