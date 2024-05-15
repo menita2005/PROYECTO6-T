@@ -20,7 +20,7 @@ class ProveedorFactory extends Factory
     {
         return [
             'Nombre' => $this->faker->sentence(5),
-            'N_Contacto' => $this->faker->phoneNumber(),
+            'telefono' => $this->faker->phoneNumber(),
             'Direccion' => $this->faker->address(),
             'Correo' => $this->faker->email()
         ];

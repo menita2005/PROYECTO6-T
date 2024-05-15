@@ -3,17 +3,17 @@
 @section('content')
 <div class="d-grid gap-2 col-4 mx-auto">
     <div class="d-inline-block text-truncate" >
-<h1>"Bienvenido A Proveedor"</h1> 
+<h1>"Bienvenido a Proveedor"</h1>
 </div>
 <a href="{{route('Proveedor.create')}}" class="btn btn-primary mb-3">CREAR PROVEEDOR</a>
 </div>
 </ul>
 <ul>
-    
+
     <table class="table table-striped">
-     
+
      <thead>
-         
+
          <tr>
              <th>ID</th>
              <th>Nombre</th>
@@ -32,16 +32,16 @@
                  <td>{{$Proveedores->telefono}}</td>
                  <td>{{$Proveedores->Direccion}}</td>
                  <td>
-                     <a href="{{route('Proveedor.show', $Proveedores->id)}}" class="btn btn-info">Ver</a>
-                     
+                     <a href="{{route('Proveedor.show', $Proveedores->id)}}" class="btn btn-primary">Ver</a>
+
                  </td>
              </tr>
          @endforeach
      </tbody>
- 
+
  </table>
-     
- 
+
+
  </ul>
 
 
