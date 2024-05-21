@@ -38,8 +38,9 @@ In Solar Energy, ​​Power Your Home With Solar, ​We specialize in a wide va
           </div>
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-1-base" href="#" style="padding: 18px 20px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-1-base" style="padding: 18px 20px;">Compra</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-1-base" style="padding: 18px 20px;">Venta</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-1-base" style="padding: 18px 20px;" href="{{route('Productos.index')}}">Productos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-1-base" style="padding: 18px 20px;" href="{{route('Proveedor.index')}}">Proveedor</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-1-base" style="padding: 18px 20px;" href="{{route('Categoria.index')}}">Categoria</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
@@ -65,7 +66,7 @@ In Solar Energy, ​​Power Your Home With Solar, ​We specialize in a wide va
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-align-center u-container-style u-list-item u-palette-1-base u-repeater-item u-shape-rectangle u-list-item-1" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500">
-              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-align-center u-file-icon u-icon u-text-white u-icon-1"><img src="images/2126961-74e55360.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-align-center u-file-icon u-icon u-text-white u-icon-1"><img src="images/1170628-c61c63f1.png" alt=""></span>
                 <h4 class="u-align-center u-custom-font u-text u-text-font u-text-2"> Productos</h4>
               </div>
             </div>
@@ -75,12 +76,12 @@ In Solar Energy, ​​Power Your Home With Solar, ​We specialize in a wide va
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-palette-1-base u-repeater-item u-shape-rectangle u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500">
-              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-align-center u-file-icon u-icon u-text-white u-icon-3"><img src="images/3843454-34c22817.png" alt=""></span>
-                <h4 class="u-align-center u-custom-font u-text u-text-font u-text-4">Caegorias</h4>
+              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-align-center u-file-icon u-icon u-text-white u-icon-3"><img src="images/1170678-a4bd63a6.png" alt=""></span>
+                <h4 class="u-align-center u-custom-font u-text u-text-font u-text-4">Ventas</h4>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-palette-1-base u-repeater-item u-shape-rectangle u-list-item-4" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="500">
-              <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-align-center u-file-icon u-icon u-text-white u-icon-4"><img src="images/3596030-32f189ad.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-align-center u-file-icon u-icon u-text-white u-icon-4"><img src="images/1611154-1efc86ab.png" alt=""></span>
                 <h4 class="u-align-center u-custom-font u-text u-text-font u-text-5">Infomes</h4>
               </div>
             </div>
@@ -97,14 +98,14 @@ In Solar Energy, ​​Power Your Home With Solar, ​We specialize in a wide va
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
                 <h3 class="u-text u-text-default u-text-2"> Productos</h3>
                 <p class="u-custom-item u-text u-text-default u-text-3"> Gestiona tu inventario con precisión, optimiza tus operaciones y alcanza el éxito empresarial sin complicaciones.</p>
-                <a href="#" class="u-active-white u-align-center u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-custom-item u-hover-white u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">Learn More</a>
+                <a href="{{route('Productos.index')}}" class="u-active-white u-align-center u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-custom-item u-hover-white u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">Productos</a>
               </div>
             </div>
             <div class="u-align-left u-container-style u-custom-item u-image u-list-item u-repeater-item u-shading u-shape-rectangle u-image-1" data-image-width="1024" data-image-height="648" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
                 <h3 class="u-text u-text-default u-text-4"> Proveedores</h3>
                 <p class="u-custom-item u-text u-text-body-alt-color u-text-default u-text-5"> Potencia tu cadena de suministro: gestiona tu inventario con eficacia para satisfacer las necesidades de tus clientes y alcanzar tus metas de crecimiento junto a nosotros, tus socios confiables.</p>
-                <a href="#" class="u-active-white u-align-center u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-custom-item u-hover-white u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-2" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">Learn More</a>
+                <a href="{{route('Proveedor.index')}}" class="u-active-white u-align-center u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-custom-item u-hover-white u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-2" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">Proveedores</a>
               </div>
             </div>
             <div class="u-align-left u-black u-container-style u-custom-item u-list-item u-repeater-item u-shape-rectangle u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
@@ -112,14 +113,14 @@ In Solar Energy, ​​Power Your Home With Solar, ​We specialize in a wide va
                 <h3 class="u-text u-text-default u-text-6">Categorias<br>
                 </h3>
                 <p class="u-custom-item u-text u-text-default u-text-7"> Maximiza la eficiencia de tu inventario por categorías: optimiza la gestión de tus productos, reduce costos y eleva la satisfacción del cliente con nuestra solución integral para proveedores</p>
-                <a href="#" class="u-active-white u-align-center u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-custom-item u-hover-white u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-3" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">Learn More</a>
+                <a href="{{route('Categoria.index')}}" class="u-active-white u-align-center u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-custom-item u-hover-white u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-3" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">Categorias</a>
               </div>
             </div>
             <div class="u-align-left u-container-style u-custom-item u-list-item u-palette-1-base u-repeater-item u-shape-rectangle u-list-item-4" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
                 <h3 class="u-text u-text-default u-text-8">Informes</h3>
                 <p class="u-custom-item u-text u-text-default u-text-9"> Potencia tu negocio con nuestra solución de gestión de inventario: genera informes detallados, obtén insights estratégicos y toma decisiones informadas para impulsar el crecimiento y la rentabilidad de tu empresa</p>
-                <a href="#" class="u-active-white u-align-center u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-custom-item u-hover-white u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-4" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">Learn More</a>
+                <a href="#" class="u-active-white u-align-center u-border-2 u-border-active-white u-border-hover-white u-border-white u-btn u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-custom-item u-hover-white u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-4" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="750">Informes</a>
               </div>
             </div>
           </div>

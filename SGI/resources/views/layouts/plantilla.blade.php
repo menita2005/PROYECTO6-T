@@ -14,7 +14,7 @@
   <div class="d-flex justify-content-center">
   <nav class="navbar navbar-expand-lg bg-body-tertiary p-3" >
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{route('home')}}" style="width:80px"><img src="../img/me_encanbta-removebg-preview.png" alt="logo" style="width:100%"></a>
+        <a class="navbar-brand" href="{{route('home')}}" style="width:80px"><img src="images/meencanbta.png" alt="logo" style="width:100%"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

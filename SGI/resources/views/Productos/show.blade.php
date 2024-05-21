@@ -8,4 +8,5 @@
 
 <p><strong>Categoria: {{$producto->Categoria}}</strong></p>
 <p><strong>descripcion: {{$producto->Descripcion}}</strong></p>
+<a href="{{route('Productos.edit',$producto)}}">Editar Producto</a>
 @endsection
