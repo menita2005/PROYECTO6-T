@@ -132,13 +132,13 @@ In Solar Energy, ​​Power Your Home With Solar, ​We specialize in a wide va
 
     <footer class="u-clearfix u-footer u-palette-5-dark-1" id="sec-b92e"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
-          <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-1"><img src="images/3536423.png" alt=""></span>
+          <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-1"><img src="images/2175193-081dd7c6.png" alt=""></span>
           </a>
-          <a class="u-social-url" title="twitter" target="_blank" href=""><span class="u-file-icon u-icon u-social-icon u-social-twitter u-icon-2"><img src="images/5968958.png" alt=""></span>
+          <a class="u-social-url" title="twitter" target="_blank" href=""><span class="u-file-icon u-icon u-social-icon u-social-twitter u-icon-2"><img src="images/11823292-e8f43670.png" alt=""></span>
           </a>
-          <a class="u-social-url" title="instagram" target="_blank" href=""><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-3"><img src="images/2111491.png" alt=""></span>
+          <a class="u-social-url" title="instagram" target="_blank" href=""><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-3"><img src="images/1384031-19353550.png" alt=""></span>
           </a>
-          <a class="u-social-url" title="linkedin" target="_blank" href=""><span class="u-file-icon u-icon u-social-icon u-social-linkedin u-icon-4"><img src="images/3488334.png" alt=""></span>
+          <a class="u-social-url" title="linkedin" target="_blank" href=""><span class="u-file-icon u-icon u-social-icon u-social-linkedin u-icon-4"><img src="images/3536569-2718a7bb.png" alt=""></span>
           </a>
         </div>
       </div></footer>

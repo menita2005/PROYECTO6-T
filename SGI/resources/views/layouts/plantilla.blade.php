@@ -6,7 +6,7 @@
     <title>@yield('title')</title>
 
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/SGI/resources/css/css.css">
+<link rel="stylesheet" href="css/css.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 @yield('link')
 
@@ -44,9 +44,10 @@
 </div>
 </head>
 
-<body class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+<body class="p-3 text-primary-emphasis bg-dark  border-primary-subtle rounded-3">
 
     @yield('content')
 
 </body>
 </html>
+  

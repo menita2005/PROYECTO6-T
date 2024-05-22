@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/Como-hacer-un-inventario-a-mano-5-pasos.webp');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,3.3)), url('/SGI/public/images/Como-hacer-un-inventario-a-mano-5-pasos.webp');
   background-position: 50% 50%;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .u-section-1 .u-text-1 {
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 8px rgba(0,0,0,3.2);
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -313,7 +313,7 @@
 }
 
 .u-section-2 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('images/como-hacer-un-inventario-a-mano-1024x648.png');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,03)), url('images/como-hacer-un-inventario-a-mano-1024x648.png');
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
